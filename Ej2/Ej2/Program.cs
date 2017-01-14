@@ -10,6 +10,7 @@ namespace Ej2
         static void Main(string[] args)
         {
             coversion();
+            Console.ReadKey();
 
         }
 
@@ -29,7 +30,7 @@ namespace Ej2
             resultado = (c * 9 / 5) + (32);
 
             Console.Write("Resultado es " + resultado);
-            Console.ReadKey();
+           
 
         }
     }
